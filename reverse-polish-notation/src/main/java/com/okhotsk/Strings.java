@@ -32,6 +32,7 @@ public class Strings {
      * 全角から半角に変換
      * @param fullWidth 全角カナ
      * @return 半角カナ
+     * @see http://pgcafe.moo.jp/JAVA/string/main_1.htm
      */
     public static String fullToHalf(String fullWidth) {
         var sb = new StringBuilder();
